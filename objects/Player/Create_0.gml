@@ -5,4 +5,4 @@
 enum vec{vel_y, steps_frame, up, down, left, right}
 
 // player è un array 2D, l'id del player + vec
-globalvar player;
+global.player = 0;

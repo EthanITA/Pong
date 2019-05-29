@@ -17,7 +17,7 @@ else{
 	// Inverti il senso di x 
 	else if(collision_player){
 		vel_x *= -1;
-		if(vel_x > 8 || vel_x <-8) ; // Limitazione della velocità:
+		if(vel_x > 8 || vel_x >-8) ; // Limitazione della velocità:
 									 // non fare niente
 		
 		// Aumenta la velocità della palla
